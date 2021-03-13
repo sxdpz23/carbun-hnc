@@ -1,0 +1,23 @@
+{
+  "name": "envonhnce",
+  "version": "1.0.0",
+  "description": "envonhnce is a tool to inform and educate on the environmental crisis especially amount of exhausted carbon and the respective majors to be taken accordingly.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "envonhnce",
+    "carbon",
+    "environment",
+    "climate",
+    "change"
+  ],
+  "author": "ExypnosDevloper",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}

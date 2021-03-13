@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <link rel = "stylesheet" href="style.css">
+  <title> Test Form </title>
+</head>
+<body>
+  <header>
+    <h1>Carbon Calculator</h1>
+  </header>
+<form action="/car" method="POST">
+  <label for="petrol">Petrol(in liters) used per week</label><br>
+  <input type="number" id="petrol" name="petrol" value="1"><br>
+  <input type="submit" value="Submit">
+</form>
+
+<form action="/plane" method="POST">
+  <label for="plane">Approx number of Km traveled by plane per week </label><br>
+  <input type="number" id="plane" name="plane" value="2"><br>
+  <input type="submit" value="Submit">
+</form>
+
+<form action="/train" method="POST">
+  <label for="train">Approx number of Km traveled by train per week </label><br>
+  <input type="number" id="train" name="train" value="3"><br>
+  <input type="submit" value="Submit">
+</form>
+
+<form action="/metro" method="POST">
+  <label for="metro">Approx number of Km traveled by metro per week </label><br>
+  <input type="number" id="metro" name="metro" value="4"><br>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
