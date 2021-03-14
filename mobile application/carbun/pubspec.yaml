@@ -29,8 +29,18 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter_vector_icons: ^0.2.1 #For more options for icons
   # shared_preferences: ^0.5.12+4 #For storing data permanently
-  # flutter_spinkit: ^4.1.2+1 #For multiple options on Loading Screens
-  # page_transition: ^1.1.7+2 #For multiple options to Page Navigating Transitions
+  flutter_spinkit: ^4.1.2+1 #For multiple options on Loading Screens
+  page_transition: ^1.1.7+2 #For multiple options to Page Navigating Transitions
+  flutter_staggered_grid_view: ^0.3.4
+  transparent_image: ^1.0.0
+  provider: ^4.3.2+2 #For storing shared values which can be altered fully
+  path_provider: 1.6.14 #For getting path in the device
+  http:
+  camera:
+
+  # | F I R E B A S E _ S E R V I C E S
+  firebase_core: ^0.5.2 #For establishing firebase services in any app
+  firebase_auth: ^0.18.3 #For authentication service
 
 dev_dependencies:
   flutter_test:
